@@ -1,0 +1,14 @@
+{
+  "name": "claude-dashboard",
+  "version": "1.0.0",
+  "description": "Desktop console/dashboard for Claude Code",
+  "main": "main/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "electron": "^45.2.3"
+  }
+}
